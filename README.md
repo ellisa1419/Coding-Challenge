@@ -31,8 +31,7 @@ But my first thought was to implement binary search on ports. The idea was to st
 
 This would make the searching fast and easy for port for subsequent packages.
 
-# c. any refinements or optimizations that you would’ve implemented if you had
-more time
+# c. any refinements or optimizations that you would’ve implemented if you had more time
 
 Yes, I would have implemented binary search described above if time was more. For this, it should be able store both individual ports and ranges in sorted order and while searching should be able to check "all" possible matches for ipaddress check. 
 
